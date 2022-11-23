@@ -114,7 +114,7 @@ a:active{
 
 @media screen and (min-width: 450px) {
     body {
-      background-color: lightgreen;
+
 
     }
     .main{
@@ -127,7 +127,7 @@ a:active{
 
   @media screen and (min-width: 680px) {
     body {
-      background-color: green;
+
 
     }
     .main{
