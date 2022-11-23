@@ -4,11 +4,11 @@
 <svg
    version="1.1"
    id="svg2"
-   width="4832.3423"
-   height="1669.5551"
-   viewBox="0 0 4832.3423 1669.5551"
+   width="6667.2002"
+   height="4000.3201"
+   viewBox="0 0 6667.2002 4000.3201"
    sodipodi:docname="eilogo.svg"
-   inkscape:export-filename="ei stock.svg"
+   inkscape:export-filename="ei stock.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
@@ -19,12 +19,6 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs6">
-    <rect
-       x="3228.9084"
-       y="3124.2168"
-       width="3206.8682"
-       height="1608.9441"
-       id="rect392" />
     <rect
        x="2038.7306"
        y="2705.4507"
@@ -37,18 +31,6 @@
        width="3983.7898"
        height="2870.7532"
        id="rect304" />
-    <rect
-       x="4810.3022"
-       y="2920.3438"
-       width="3394.2109"
-       height="2033.2205"
-       id="rect298" />
-    <rect
-       x="1945.0592"
-       y="1184.6678"
-       width="2529.1279"
-       height="1625.4744"
-       id="rect238" />
   </defs>
   <sodipodi:namedview
      id="namedview4"
@@ -61,8 +43,8 @@
      inkscape:deskcolor="#505050"
      showgrid="false"
      inkscape:zoom="0.18148548"
-     inkscape:cx="2763.3065"
-     inkscape:cy="870.59306"
+     inkscape:cx="2204.0331"
+     inkscape:cy="2446.4767"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -72,9 +54,7 @@
   <g
      inkscape:groupmode="layer"
      inkscape:label="Image"
-     id="g8"
-     style="display:inline"
-     transform="translate(-198.36298,-1140.5872)">
+     id="g8">
     <image
        width="6667.2002"
        height="4000.3201"
@@ -83,25 +63,21 @@
        id="image10"
        x="-2264.644"
        y="82.651237" />
-    <path
-       style="fill:#000000;stroke-width:0.96"
-       id="path170"
-       d="" />
     <text
        xml:space="preserve"
        id="text302"
-       style="font-size:800px;font-family:'Adventure ReQuest';-inkscape-font-specification:'Adventure ReQuest';white-space:pre;shape-inside:url(#rect304);display:inline;fill:#ffffff"
+       style="font-size:800px;font-family:'Adventure ReQuest';-inkscape-font-specification:'Adventure ReQuest';white-space:pre;shape-inside:url(#rect304);fill:#ffffff"
        transform="translate(-55.100827,539.49819)"><tspan
          x="2033.2207"
          y="1758.1168"
-         id="tspan192">KONIC</tspan></text>
+         id="tspan362">KONIC</tspan></text>
     <text
        xml:space="preserve"
        id="text308"
-       style="font-size:192px;font-family:'Adventure ReQuest';-inkscape-font-specification:'Adventure ReQuest';white-space:pre;shape-inside:url(#rect310);display:inline;fill:#ffffff"
+       style="font-size:192px;font-family:'Adventure ReQuest';-inkscape-font-specification:'Adventure ReQuest';white-space:pre;shape-inside:url(#rect310);fill:#ffffff"
        transform="matrix(1.0371864,0,0,1,-141.93421,-192.8529)"><tspan
          x="2038.7305"
          y="2878.7845"
-         id="tspan194">V i c t o r i o u s       E n e r g y</tspan></text>
+         id="tspan364">V i c t o r i o u s       E n e r g y</tspan></text>
   </g>
 </svg>
