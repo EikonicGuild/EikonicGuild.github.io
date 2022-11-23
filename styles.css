@@ -2,6 +2,18 @@ body {
     background-color: black;
 }
 
+h1 {
+    height: 2em !important;
+}
+
+h3{
+    color:#00ff31 !important;
+    text-align: center;
+}
+.filter-green {
+   filter: invert(50%) sepia(62%) saturate(3804%) hue-rotate(107deg) brightness(124%) contrast(124%);
+}
+
 .ui-accordion-content  {
     background-color: black !important;
     color: #00ff31 !important;
@@ -26,7 +38,47 @@ body {
 .ui-widget-content {
     border: 1px solid #00ff31 !important;
 }
+
+.ui-accordion .ui-accordion-content{
+    box-sizing:content-box;             
+    -moz-box-sizing:content-box;
+}
+
+
+.center-align{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 @font-face {
     font-family: 'Adventure_ReQuest';
     src: url(Adventure_ReQuest.otf);
 }
+
+@media screen and (min-width: 450px) {
+    body {
+      background-color: lightgreen;
+
+    }
+    .main{
+        margin-left: 20%;
+        margin-right: 20%;
+        text-align: center;
+
+    }
+  }
+
+  @media screen and (min-width: 680px) {
+    body {
+      background-color: green;
+
+    }
+    .main{
+        margin-left: 30%;
+        margin-right: 30%;
+        text-align: center;
+
+    }
+  }
