@@ -96,6 +96,15 @@ a:active{
 
   /* Drop-Shadow to emulate stroke effect */
 
+  .gallery_body{
+    display: flex;
+    flex: 1;
+  }
+
+  .gallery_video {
+    align-content: center;
+    height: 30%;
+  }
   a:link, a:visited {
     color: #000 !important;
     text-decoration: underline;
@@ -132,3 +141,19 @@ a:active{
     }
   }
 
+  @media screen and (min-width: 1300px) {
+
+    body {
+        background-color: #000 ;
+        background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+    
+    }
+
+    .main{
+        margin-left: 35%;
+        margin-right: 35%;
+        text-align: center;
+
+    }
+
+  }

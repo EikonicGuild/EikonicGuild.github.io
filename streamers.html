@@ -1,20 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
-        <link rel="stylesheet" href="/resources/demos/style.css">
-        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<html>
+  <body>
+    <!-- Add a placeholder for the Twitch embed -->
+    <div id="twitch-embed"></div>
 
-
-
-</head>
-<body>
+    <!-- Load the Twitch embed JavaScript file -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
     
-</body>
+    <div class="gallery_body">
+    <div class = "gallery_video">
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: "nazori",
+        // Only needed if this page is going to be embedded on other websites
+        parent: ["eikonicguild.github.io"]
+      });
+    </script>
+    </div>
+
+    <div class = "gallery_video">
+        <script type="text/javascript">
+          new Twitch.Embed("twitch-embed", {
+            width: 854,
+            height: 480,
+            channel: "bastila",
+            // Only needed if this page is going to be embedded on other websites
+            parent: ["eikonicguild.github.io"]
+          });
+        </script>
+        </div>
+
+        <div class = "gallery_video">
+            <script type="text/javascript">
+              new Twitch.Embed("twitch-embed", {
+                width: 854,
+                height: 480,
+                channel: "kaboosehips",
+                // Only needed if this page is going to be embedded on other websites
+                parent: ["eikonicguild.github.io"]
+              });
+            </script>
+            </div>
+            </div>
+        
+    
+    
+
+
+  </body>
 </html>
