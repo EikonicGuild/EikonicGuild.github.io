@@ -12,12 +12,24 @@ h3{
     color:#00ff31 !important;
     text-align: center;
 }
+
+.green-bg{
+filter: invert(50%) sepia(62%) saturate(3804%) hue-rotate(107deg) brightness(124%) contrast(124%); 
+}
+
+.black{
+    filter: invert(0%) sepia(33%) saturate(2106%) hue-rotate(85deg) brightness(107%) contrast(106%);
+
+
+
+}
+
 a {  
     box-shadow: inset 0 0 0 0 #54b3d6;
     color: #54b3d6;
     margin: 0 -.62rem;
     padding: 0 .1em;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    transition: color .6s ease-in-out, box-shadow .6s ease-in-out;
 }
 
 a:link {
@@ -32,7 +44,7 @@ a:visited{
 a:hover{
 
     text-decoration: none !important; 
-    box-shadow: inset 165px 0 0 0 #00ff31;
+    box-shadow: inset 360px 0 0 0 #00ff31;
     color: #00ff31;
 }
 
@@ -99,6 +111,7 @@ a:active{
   .gallery_body{
     display: flex;
     flex: 1;
+    flex-direction: column;
   }
 
   .gallery_video {
